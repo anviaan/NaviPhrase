@@ -73,10 +73,16 @@ client.on("message", message => {
     //send the message in a channel
     //client.channels.resolve("channelID").send(texto)
     
+    //message date
+    let date = new Date();
+
+
     //send the message with embed
     message.channel.bulkDelete(1);
     message.channel.send(embed);
-    console.log(message.author.username + ": " + texto)
+    
+    //console.log privade phrase
+    console.log("[" + date.toLocaleString('en-US',{ timeZone: 'America/New_York' })+ "]" + message.author.username + ": " + texto)
     
   }
 });
