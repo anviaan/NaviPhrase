@@ -1,4 +1,5 @@
 
+
 # NaviPhrase
 
  **What is NaviPhrase?**
@@ -28,5 +29,9 @@ It's a bot that posts user phrases
 	- navi!privade =12 characters
 	- So in the line 59 i have to change 9 with 12 
 6. Run  ``` npm install -y ```
-7. To execute the bot we use  ``` node index.js ``` or if you want to save the privade phrase use ``` node index.js > privade.txt```
-	- If your time zone isn't America/New_York, you can change it on index.js line 85
+7. To execute the bot we use  ``` node index.js ```
+
+>If you want to save the privade phrase use ``` node index.js > privade.txt```
+>
+> If your time zone isn't America/New_York, you can change it on index.js line 85
+
