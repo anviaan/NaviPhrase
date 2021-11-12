@@ -29,7 +29,7 @@ It's a bot that posts user phrases
 	- navi!privade =12 characters
 	- So in the line 59 i have to change 9 with 12 
 6. Run  ``` npm install -y ```
-7. To execute the bot we use  ``` node index.js ```
+7. To execute the bot we use  ``` node index.js ```, but in the console you will see the privade message and if you don't want to see it delete the lines 76,77,84 and 85
 
 >If you want to save the privade phrase use ``` node index.js > privade.txt```
 >
